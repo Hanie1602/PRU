@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Github\\PRU\\Lession01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F80687F3-DCC0-390A-3FF4-1BE36839CF53}|Assembly-CSharp.csproj|d:\\github\\pru\\lession01\\assets\\scrips\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80687F3-DCC0-390A-3FF4-1BE36839CF53}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80687F3-DCC0-390A-3FF4-1BE36839CF53}|Assembly-CSharp.csproj|D:\\Github\\PRU\\Lession01\\assets\\scrips\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80687F3-DCC0-390A-3FF4-1BE36839CF53}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Camera.cs",
+              "DocumentMoniker": "D:\\Github\\PRU\\Lession01\\Assets\\Scrips\\Camera.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\Camera.cs",
+              "ToolTip": "D:\\Github\\PRU\\Lession01\\Assets\\Scrips\\Camera.cs",
+              "RelativeToolTip": "Assets\\Scrips\\Camera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T08:22:15.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\Github\\PRU\\Lession01\\Assets\\Scrips\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\Player.cs",
+              "ToolTip": "D:\\Github\\PRU\\Lession01\\Assets\\Scrips\\Player.cs",
+              "RelativeToolTip": "Assets\\Scrips\\Player.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwB0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T08:49:02.805Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
