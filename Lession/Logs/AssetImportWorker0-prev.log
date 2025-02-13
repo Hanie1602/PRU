@@ -1,0 +1,292 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.32f1 (b2e806cf271c) revision 11724806'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16003 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Lession\Unity\Unity Hub\Editor\6000.0.32f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Github/PRU/Lession
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64663
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: D:/Github/PRU/Lession
+D:/Github/PRU/Lession
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [30836]  Target information:
+
+Player connection [30836]  * "[IP] 192.168.129.1 [Port] 0 [Flags] 2 [Guid] 70789506 [EditorId] 70789506 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-9HDJDBQK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30836]  * "[IP] 192.168.110.1 [Port] 0 [Flags] 2 [Guid] 70789506 [EditorId] 70789506 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-9HDJDBQK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30836]  * "[IP] 10.87.17.93 [Port] 0 [Flags] 2 [Guid] 70789506 [EditorId] 70789506 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-9HDJDBQK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30836] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30836] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.32f1 (b2e806cf271c)
+[Subsystems] Discovering subsystems at path D:/Lession/Unity/Unity Hub/Editor/6000.0.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Github/PRU/Lession/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28e1)
+    Vendor:   NVIDIA
+    VRAM:     5936 MB
+    Driver:   31.0.15.4680
+Initialize mono
+Mono path[0] = 'D:/Lession/Unity/Unity Hub/Editor/6000.0.32f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Lession/Unity/Unity Hub/Editor/6000.0.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Lession/Unity/Unity Hub/Editor/6000.0.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Lession/Unity/Unity Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001499 seconds.
+- Loaded All Assemblies, in  0.415 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.379 seconds
+Domain Reload Profiling: 794ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (146ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (156ms)
+				TypeCache.ScanAssembly (142ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (379ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (330ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (176ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.954 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.062 seconds
+Domain Reload Profiling: 2016ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (665ms)
+		LoadAssemblies (464ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (327ms)
+			TypeCache.Refresh (225ms)
+				TypeCache.ScanAssembly (207ms)
+			BuildScriptInfoCaches (85ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1062ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (890ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (204ms)
+			ProcessInitializeOnLoadAttributes (545ms)
+			ProcessInitializeOnLoadMethodAttributes (129ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 207 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7017 unused Assets / (5.4 MB). Loaded Objects now: 7696.
+Memory consumption went from 176.5 MB to 171.1 MB.
+Total: 9.742300 ms (FindLiveObjects: 0.612800 ms CreateObjectMapping: 0.514100 ms MarkObjects: 5.152100 ms  DeleteObjects: 3.462000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 342806.810135 seconds.
+  path: Assets/đất bay 02.png
+  artifactKey: Guid(465903fd107a6c846a5912059c9597dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/đất bay 02.png using Guid(465903fd107a6c846a5912059c9597dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82de48902d0b9f17509e74fb59696dde') in 0.1221411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 382.877110 seconds.
+  path: Assets/đất bay 02.png
+  artifactKey: Guid(465903fd107a6c846a5912059c9597dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/đất bay 02.png using Guid(465903fd107a6c846a5912059c9597dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0f31cba73ef5da2a5166e81a022027c') in 0.0780239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.981185 seconds.
+  path: Assets/đất bay 02.png
+  artifactKey: Guid(465903fd107a6c846a5912059c9597dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/đất bay 02.png using Guid(465903fd107a6c846a5912059c9597dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bdb28cfa6b9447ba363b0113e065dab') in 0.058518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.373995 seconds.
+  path: Assets/đất bay 02_4.asset
+  artifactKey: Guid(b27665f7e85437449b68a77208eb381d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/đất bay 02_4.asset using Guid(b27665f7e85437449b68a77208eb381d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '551755e8fcceebb964380386d367d09b') in 0.0285269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.567080 seconds.
+  path: Assets/đất bay 02_0.asset
+  artifactKey: Guid(e35e5d86ee1d4bb4a8ff37b54ce3c159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/đất bay 02_0.asset using Guid(e35e5d86ee1d4bb4a8ff37b54ce3c159) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '631d9c626f48a1a0840628a9f9ca8e0e') in 0.0237404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/đất bay 02_2.asset
+  artifactKey: Guid(c30efa3506c2c7e4a8be0b10efd2b1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/đất bay 02_2.asset using Guid(c30efa3506c2c7e4a8be0b10efd2b1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c693656a6078fa6130829f332396538') in 0.0237611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/đất bay 02_5.asset
+  artifactKey: Guid(6a79694701e3ee148b6d1c22b06b4a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/đất bay 02_5.asset using Guid(6a79694701e3ee148b6d1c22b06b4a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e923690f9c68b3257a65d46f7cc92265') in 0.0211508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/đất bay 02_8.asset
+  artifactKey: Guid(0675fc9c977447f42a804a32ea892f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/đất bay 02_8.asset using Guid(0675fc9c977447f42a804a32ea892f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4343e2f070c10ebf8d57ff40ea9e2372') in 0.0195482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/đất bay 02_7.asset
+  artifactKey: Guid(bf090832166ad6d47889ccb01305c36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/đất bay 02_7.asset using Guid(bf090832166ad6d47889ccb01305c36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55549780b2a7b8eb928706d75ad8328c') in 0.0203389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/đất bay 02_9.asset
+  artifactKey: Guid(2d7320b0f6963204bbca7aa09c87b203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/đất bay 02_9.asset using Guid(2d7320b0f6963204bbca7aa09c87b203) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd17dd93fb2e4ac36e1a0d91f091a32b') in 0.02024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/đất bay 02_11.asset
+  artifactKey: Guid(e1f5c9f37f62d794193b6cd7ce68e002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/đất bay 02_11.asset using Guid(e1f5c9f37f62d794193b6cd7ce68e002) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e13ae5239b4de85cdb718daa2835d2d9') in 0.019912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

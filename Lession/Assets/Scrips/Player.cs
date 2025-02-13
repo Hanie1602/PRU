@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
 	{
 		moveInput.x = Input.GetAxis("Horizontal");
 		moveInput.y = Input.GetAxis("Vertical");
-		transform.position += moveInput * moveSpeed * Time.deltaTime * 2;
+		transform.position += moveInput * moveSpeed * Time.deltaTime * 2.5f;
 		if (moveInput.x != 0)
 		{
 			if (moveInput.x > 0)

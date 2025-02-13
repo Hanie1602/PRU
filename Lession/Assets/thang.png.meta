@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ab4116e6255c2ac42a3d04da2e939f13
+guid: 49a604c782babcd48b3190072db39fa2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1342954271244971394
-    second: sprite_6_0
+      213: 7597602457337558151
+    second: thang_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sprite_6_0
+      name: thang_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 64
-        height: 50
+        y: 3
+        width: 108
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 28d662f5bc123a210800000000000000
-      internalID: 1342954271244971394
+      spriteID: 7847d3e5e2b107960800000000000000
+      internalID: 7597602457337558151
       vertices: []
       indices: 
       edges: []
