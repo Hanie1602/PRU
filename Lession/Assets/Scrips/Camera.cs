@@ -22,7 +22,7 @@ public class Camera : MonoBehaviour
     void Update()
     {
 		playerPosition = player.position + offset;
-		//transform.position = playerPosition;
+		transform.position = playerPosition;
 
 		Vector3 boundPos = new Vector3(
 		Mathf.Clamp(playerPosition.x, minValue.x, maxValue.x),

@@ -485,6 +485,7 @@
 "Assets/Cainos/Third Party/Lucid Editor/Runtime/PropertyGroupAttribute.cs"
 "Assets/CaptainCatSparrow/SpellIconsVolume_2/Scripts/Demo.cs"
 "Assets/Scrips/Camera.cs"
+"Assets/Scrips/Ladder.cs"
 "Assets/Scrips/Player.cs"
 -langversion:9.0
 /deterministic
