@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\Github\\PRU\\Lession\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|D:\\Github\\PRU\\Lession\\assets\\scrips\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|d:\\github\\pru\\lession\\assets\\scrips\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -38,8 +38,7 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\2D\\Sprite-Lit-Default.shader",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-02-22T03:52:56.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-22T03:52:56.517Z"
             },
             {
               "$type": "Document",
@@ -61,7 +60,7 @@
               "RelativeDocumentMoniker": "Assets\\Scrips\\Player.cs",
               "ToolTip": "D:\\Github\\PRU\\Lession\\Assets\\Scrips\\Player.cs",
               "RelativeToolTip": "Assets\\Scrips\\Player.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAgwEMAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwEMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T08:46:34.612Z",
               "EditorCaption": ""
