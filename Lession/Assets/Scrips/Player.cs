@@ -1,52 +1,84 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
-	public float moveSpeed = 4f;
-	public float jumpForce = 7f;  //Lực nhảy
+	public float runSpeed = 10f;
+	public float jumpPower = 5f;
+	bool isFacingRight = true;
+	public Vector2 boxSize;
+	public float castDistance;
+	public LayerMask groundLayer;
 
-	private Vector2 moveInput;
-	private Rigidbody2D rb;
-	private bool isGrounded;
-
-	public Transform groundCheck;  //Điểm kiểm tra đất
-	public float groundCheckRadius = 0.2f;
-	public LayerMask groundLayer;  //Layer của mặt đất
+	Vector2 moveInput;
+	Rigidbody2D myRigidbody;
+	Animator animator;
 
 	void Start()
 	{
-		rb = GetComponent<Rigidbody2D>();
+		myRigidbody = GetComponent<Rigidbody2D>();
+		animator = GetComponent<Animator>();
 	}
 
 	void Update()
 	{
-		moveInput.x = Input.GetAxis("Horizontal");
-
-		if (moveInput.x != 0)
+		Run();
+		FlipSprite();
+		animator.SetFloat("yVelocity", myRigidbody.linearVelocity.y);
+		if (isGrounded() && myRigidbody.linearVelocity.y == 0)
 		{
-			transform.localScale = new Vector3(moveInput.x > 0 ? 4 : -4, 4, 0);
-		}
-
-		//Kiểm tra nhân vật đang đứng trên mặt đất
-		isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-
-		//Kiểm tra phím K có được nhận không
-		if (Input.GetKeyDown(KeyCode.K))
-		{
-			Debug.Log("K pressed!");
-		}
-
-		//Kiểm tra nhảy
-		if (Input.GetKeyDown(KeyCode.K) && isGrounded)
-		{
-			rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-			Debug.Log("Jump!");
+			animator.SetBool("isJumping", false);
 		}
 	}
 
-	void FixedUpdate()
+	void OnMove(InputValue value)
 	{
-		rb.linearVelocity = new Vector2(moveInput.x * moveSpeed, rb.linearVelocity.y);
+		moveInput = value.Get<Vector2>();
+		//Debug.Log(moveInput);
+	}
+
+	void OnJump(InputValue value)
+	{
+
+		if (value.isPressed && isGrounded())
+		{
+			Vector2 playerVelocity = new Vector2(myRigidbody.linearVelocity.x, jumpPower);
+			myRigidbody.linearVelocity = playerVelocity;
+			animator.SetBool("isJumping", true);
+		}
+	}
+	void Run()
+	{
+		Vector2 playerVelocity = new Vector2(moveInput.x * runSpeed, myRigidbody.linearVelocity.y);
+		myRigidbody.linearVelocity = playerVelocity;
+		animator.SetFloat("xVelocity", Math.Abs(playerVelocity.x));
+	}
+
+	void FlipSprite()
+	{
+		bool rightToLeft = isFacingRight && moveInput.x < 0f;
+		bool leftToRight = !isFacingRight && moveInput.x > 0f;
+
+		if (rightToLeft || leftToRight)
+		{
+			isFacingRight = !isFacingRight;
+			Vector2 ls = transform.localScale;
+			ls.x *= -1f;
+			transform.localScale = ls;
+		}
+	}
+
+	public bool isGrounded()
+	{
+		RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, castDistance, groundLayer);
+		return hit.collider != null;
+	}
+
+	private void OnDrawGizmos()
+	{
+		Gizmos.color = Color.red;
+		Gizmos.DrawLine(transform.position, transform.position + Vector3.down * castDistance);
 	}
 
 }
