@@ -3,20 +3,48 @@
   "WorkspaceRootPath": "D:\\Github\\PRU\\Lession\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|D:\\Github\\PRU\\Lession\\assets\\scrips\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|d:\\github\\pru\\lession\\assets\\scrips\\firedamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\firedamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\PRU\\Lession\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\2D\\Sprite-Lit-Default.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\2D\\Sprite-Lit-Default.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|D:\\Github\\PRU\\Lession\\assets\\scrips\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|D:\\Github\\PRU\\Lession\\assets\\scrips\\toxiczone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\toxiczone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|D:\\Github\\PRU\\Lession\\assets\\scrips\\smokemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\smokemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|D:\\Github\\PRU\\Lession\\assets\\scrips\\ladder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\ladder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|D:\\Github\\PRU\\Lession\\assets\\scrips\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|D:\\Github\\PRU\\Lession\\assets\\scrips\\jumpingmushroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\jumpingmushroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|D:\\Github\\PRU\\Lession\\assets\\scrips\\cameras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\cameras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|D:\\Github\\PRU\\Lession\\assets\\scrips\\stalactite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\stalactite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\PRU\\Lession\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\2D\\Sprite-Lit-Default.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\2D\\Sprite-Lit-Default.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\PRU\\Lession\\Assets\\Scrips\\Camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scrips\\Camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\PRU\\Lession\\Assets\\Scrips\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scrips\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +54,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FireDamage.cs",
+              "DocumentMoniker": "D:\\Github\\PRU\\Lession\\Assets\\Scrips\\FireDamage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\FireDamage.cs",
+              "ToolTip": "D:\\Github\\PRU\\Lession\\Assets\\Scrips\\FireDamage.cs",
+              "RelativeToolTip": "Assets\\Scrips\\FireDamage.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T15:41:46.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ToxicZone.cs",
+              "DocumentMoniker": "D:\\Github\\PRU\\Lession\\Assets\\Scrips\\ToxicZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\ToxicZone.cs",
+              "ToolTip": "D:\\Github\\PRU\\Lession\\Assets\\Scrips\\ToxicZone.cs",
+              "RelativeToolTip": "Assets\\Scrips\\ToxicZone.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T06:21:52.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SmokeMovement.cs",
+              "DocumentMoniker": "D:\\Github\\PRU\\Lession\\Assets\\Scrips\\SmokeMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\SmokeMovement.cs",
+              "ToolTip": "D:\\Github\\PRU\\Lession\\Assets\\Scrips\\SmokeMovement.cs",
+              "RelativeToolTip": "Assets\\Scrips\\SmokeMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T11:27:48.876Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\Github\\PRU\\Lession\\Assets\\Scrips\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\PlayerController.cs",
+              "ToolTip": "D:\\Github\\PRU\\Lession\\Assets\\Scrips\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scrips\\PlayerController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAwEkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T06:03:27.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cameras.cs",
+              "DocumentMoniker": "D:\\Github\\PRU\\Lession\\Assets\\Scrips\\Cameras.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\Cameras.cs",
+              "ToolTip": "D:\\Github\\PRU\\Lession\\Assets\\Scrips\\Cameras.cs",
+              "RelativeToolTip": "Assets\\Scrips\\Cameras.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T06:52:09.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Stalactite.cs",
+              "DocumentMoniker": "D:\\Github\\PRU\\Lession\\Assets\\Scrips\\Stalactite.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\Stalactite.cs",
+              "ToolTip": "D:\\Github\\PRU\\Lession\\Assets\\Scrips\\Stalactite.cs",
+              "RelativeToolTip": "Assets\\Scrips\\Stalactite.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwFAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T20:41:46.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Sprite-Lit-Default.shader",
               "DocumentMoniker": "D:\\Github\\PRU\\Lession\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\2D\\Sprite-Lit-Default.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\2D\\Sprite-Lit-Default.shader",
@@ -43,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Camera.cs",
               "DocumentMoniker": "D:\\Github\\PRU\\Lession\\Assets\\Scrips\\Camera.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\Camera.cs",
@@ -55,28 +156,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Player.cs",
-              "DocumentMoniker": "D:\\Github\\PRU\\Lession\\Assets\\Scrips\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scrips\\Player.cs",
-              "ToolTip": "D:\\Github\\PRU\\Lession\\Assets\\Scrips\\Player.cs",
-              "RelativeToolTip": "Assets\\Scrips\\Player.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAgwEMAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T08:46:34.612Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Ladder.cs",
               "DocumentMoniker": "D:\\Github\\PRU\\Lession\\Assets\\Scrips\\Ladder.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\Ladder.cs",
               "ToolTip": "D:\\Github\\PRU\\Lession\\Assets\\Scrips\\Ladder.cs",
               "RelativeToolTip": "Assets\\Scrips\\Ladder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-15T08:23:21.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JumpingMushroom.cs",
+              "DocumentMoniker": "D:\\Github\\PRU\\Lession\\Assets\\Scrips\\JumpingMushroom.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\JumpingMushroom.cs",
+              "ToolTip": "D:\\Github\\PRU\\Lession\\Assets\\Scrips\\JumpingMushroom.cs",
+              "RelativeToolTip": "Assets\\Scrips\\JumpingMushroom.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T06:39:16.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\Github\\PRU\\Lession\\Assets\\Scrips\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\Player.cs",
+              "ToolTip": "D:\\Github\\PRU\\Lession\\Assets\\Scrips\\Player.cs",
+              "RelativeToolTip": "Assets\\Scrips\\Player.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwE8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T08:46:34.612Z"
             }
           ]
         }

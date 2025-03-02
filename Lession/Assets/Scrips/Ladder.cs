@@ -21,7 +21,7 @@ public class Ladder : MonoBehaviour
 		if (other.CompareTag("Player"))
 		{
 			isClimbing = false;
-			rb.gravityScale = 1;  //Bật lại trọng lực khi rời khỏi thang
+			rb.gravityScale = 3.5f;  //Bật lại trọng lực khi rời khỏi thang
 		}
 	}
 
