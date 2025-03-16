@@ -5,7 +5,7 @@ public class Stalactite : MonoBehaviour
 {
 	private Vector3 startPosition;
 	private Rigidbody2D rb;
-	private bool isFalling = false;
+	private AudioSource audioSource;
 
 	//Thời gian trước khi thạch nhũ rơi
 	public float fallDelay = 2.0f;
@@ -16,6 +16,8 @@ public class Stalactite : MonoBehaviour
 	void Start()
 	{
 		rb = GetComponent<Rigidbody2D>();
+		audioSource = GetComponent<AudioSource>();
+
 		startPosition = transform.position;
 
 		//Giữ yên trước khi rơi
@@ -31,6 +33,12 @@ public class Stalactite : MonoBehaviour
 		{
 			//Đợi trước khi rơi
 			yield return new WaitForSeconds(fallDelay);
+
+			//Phát âm thanh rơi
+			if (audioSource != null)
+			{
+				audioSource.Play();
+			}
 
 			rb.bodyType = RigidbodyType2D.Dynamic;
 			rb.gravityScale = 2.5f;
@@ -51,22 +59,38 @@ public class Stalactite : MonoBehaviour
 
 	void OnTriggerEnter2D(Collider2D collision)
 	{
-		if (collision.CompareTag("Player") && !isFalling)
+		if (collision.CompareTag("Player"))
 		{
-			StartCoroutine(Fall());
+			// Lấy PlayerController của nhân vật
+			PlayerController player = collision.GetComponent<PlayerController>();
+			if (player != null && !player.isInvulnerable)
+			{
+				//Nhân vật bị mất 1 máu
+				player.TakeDamage(1);
+
+				//Gây Knockback cho nhân vật
+				Knockback(player);
+
+				Debug.Log("Nhân vật bị thạch nhũ rơi trúng!");
+			}
 		}
 	}
 
-	IEnumerator Fall()
+	private void Knockback(PlayerController player)
 	{
-		isFalling = true;
-		yield return new WaitForSeconds(fallDelay);
+		float knockbackForce = 3000f; //Điều chỉnh lực đẩy ngang
+		float verticalBoost = 300f; //Lực đẩy lên
 
-		//Chuyển sang Dynamic để rơi xuống
-		rb.bodyType = RigidbodyType2D.Dynamic;
+		//Xác định hướng đẩy: nếu Player bên trái thì đẩy sang trái, ngược lại thì đẩy sang phải
+		float direction = (player.transform.position.x - transform.position.x) >= 0 ? 1 : -1;
 
-		//Điều chỉnh trọng lực để rơi nhanh hơn
-		rb.gravityScale = 2.5f;
+		//Reset vận tốc trước khi đẩy
+		player.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
+
+		//Áp dụng lực đẩy lên Player
+		player.GetComponent<Rigidbody2D>().AddForce(new Vector2(knockbackForce * direction, verticalBoost));
+
+		Debug.Log("Nhân vật bị đẩy lùi do thạch nhũ!");
 	}
 
 	void OnCollisionEnter2D(Collision2D collision)
@@ -93,6 +117,5 @@ public class Stalactite : MonoBehaviour
 
 		//Reset vị trí
 		transform.position = startPosition;
-		isFalling = false;
 	}
 }

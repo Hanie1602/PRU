@@ -1,6 +1,5 @@
-﻿using UnityEngine;
-using UnityEngine.SceneManagement;
-using System.Collections;
+﻿using System.Collections;
+using UnityEngine;
 
 public class ToxicZone : MonoBehaviour
 {
@@ -17,22 +16,24 @@ public class ToxicZone : MonoBehaviour
 
 	IEnumerator DeathSequence(GameObject player)
 	{
-		isGameOver = true; 
+		isGameOver = true;
+		PlayerController playerController = player.GetComponent<PlayerController>();
+		Rigidbody2D rb = player.GetComponent<Rigidbody2D>();
 
 		//Vô hiệu hóa điều khiển nhân vật
-		if (player.GetComponent<PlayerController>() != null)
+		if (playerController != null)
 		{
-			player.GetComponent<PlayerController>().enabled = false;
+			playerController.enabled = false;
 		}
 
 		//Tắt trọng lực để không rơi xuyên qua
-		if (player.GetComponent<Rigidbody2D>() != null)
+		if (rb != null)
 		{
-			player.GetComponent<Rigidbody2D>().gravityScale = 0;
-			player.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero; //Dừng di chuyển
+			rb.gravityScale = 0;
+			rb.linearVelocity = Vector2.zero; //Dừng di chuyển
 		}
 
-		//Hiển thị toàn bộ Game Over UI
+		//Hiển thị Game Over UI
 		if (gameOverUI != null)
 		{
 			gameOverUI.SetActive(true);
@@ -48,8 +49,26 @@ public class ToxicZone : MonoBehaviour
 		//Chờ cho đến khi người chơi bấm Enter
 		yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Return));
 
-		//Load lại màn chơi
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		//--------------------------------
+		//Ẩn Game Over UI
+		gameOverUI.SetActive(false);
+
+		// Hồi sinh nhân vật với 60% máu
+		if (playerController != null)
+		{
+			playerController.Respawn();
+
+			//Kích hoạt lại điều khiển
+			playerController.enabled = true;
+		}
+
+		//Khôi phục trọng lực
+		if (rb != null)
+		{
+			rb.gravityScale = 3.5f;
+		}
+
+		isGameOver = false;
 	}
 
 }

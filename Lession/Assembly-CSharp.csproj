@@ -61,12 +61,12 @@
     <Analyzer Include="D:\Lession\Unity\Unity Hub\Editor\6000.0.32f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scrips\BatMovement.cs" />
     <Compile Include="Assets\Cainos\Pixel Art Platformer - Village Props\Script\Elevator.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HelpBoxAttribute.cs" />
-    <Compile Include="Assets\Scrips\PlayerHealth.cs" />
-    <Compile Include="Assets\Scrips\FireDamage.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HideIfAttribute.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableInPlayModeAttribute.cs" />
+    <Compile Include="Assets\Scrips\HealthPickup.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HideLabelAttribute.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\RequiredAttribute.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\GroupAttribute.cs" />
@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scrips\Cameras.cs" />
     <Compile Include="Assets\Cainos\Pixel Art Platformer - Village Props\Script\MovingPlatform.cs" />
     <Compile Include="Assets\Scrips\Ladder.cs" />
+    <Compile Include="Assets\Scrips\EnemyHeartUI.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\TitleHeaderAttribute.cs" />
     <Compile Include="Assets\Cainos\Common\Script\Utils\SecondOrderDynamics.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\EnableIfAttribute.cs" />
@@ -94,6 +95,9 @@
     <Compile Include="Assets\Cainos\Pixel Art Platformer - Village Props\Script\Chest.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\GUIColorAttribute.cs" />
     <Compile Include="Assets\Scrips\Stalactite.cs" />
+    <Compile Include="Assets\Scrips\EnemyHealth.cs" />
+    <Compile Include="Assets\Scrips\SlimerAI.cs" />
+    <Compile Include="Assets\Scrips\HealthBar.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\OnValueChangedAttribute.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\ReadOnlyAttribute.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\PropertyGroupAttribute.cs" />
