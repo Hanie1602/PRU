@@ -146,11 +146,11 @@ public class PlayerController : MonoBehaviour
 		}
 
 		//Khi nhân vật chạm vào Checkpoint ở mỗi màn, nhân vật sẽ được lưu tại màn đó
-		if (collision.CompareTag("Checkpoint"))
-		{
-			respawnPosition = collision.transform.position;
-			Debug.Log("Checkpoint mới được lưu!");
-		}
+		//if (collision.CompareTag("Checkpoint"))
+		//{
+		//	respawnPosition = collision.transform.position;
+		//	Debug.Log("Checkpoint mới được lưu!");
+		//}
 	}
 
 	private void OnTriggerStay2D(Collider2D collision)

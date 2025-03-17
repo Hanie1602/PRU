@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "D:\\Github\\PRU\\Lession\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|D:\\Github\\PRU\\Lession\\assets\\scrips\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|d:\\github\\pru\\lession\\assets\\scrips\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|d:\\github\\pru\\lession\\assets\\scrips\\toxiczone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|D:\\Github\\PRU\\Lession\\assets\\scrips\\toxiczone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\toxiczone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|d:\\github\\pru\\lession\\assets\\scrips\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|D:\\Github\\PRU\\Lession\\assets\\scrips\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|d:\\github\\pru\\lession\\assets\\scrips\\enemyheartui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|D:\\Github\\PRU\\Lession\\assets\\scrips\\enemyheartui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C18B7E2-80AC-4338-43EC-A940C259C158}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\enemyheartui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -42,8 +42,7 @@
               "RelativeToolTip": "Assets\\Scrips\\ToxicZone.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T06:39:48.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T06:39:48.839Z"
             },
             {
               "$type": "Document",
@@ -53,7 +52,7 @@
               "RelativeDocumentMoniker": "Assets\\Scrips\\PlayerController.cs",
               "ToolTip": "D:\\Github\\PRU\\Lession\\Assets\\Scrips\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scrips\\PlayerController.cs",
-              "ViewState": "AgIAAKQAAAAAAAAAAAAUwOIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAywJgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T08:27:18.696Z",
               "EditorCaption": ""
@@ -68,8 +67,7 @@
               "RelativeToolTip": "Assets\\Scrips\\HealthBar.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAA5wDoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T06:20:04.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T06:20:04.019Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "Assets\\Scrips\\EnemyHeartUI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T08:51:13.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T08:51:13.577Z"
             },
             {
               "$type": "Document",
