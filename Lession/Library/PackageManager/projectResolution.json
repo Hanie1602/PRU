@@ -1,7 +1,7 @@
 {
   "context": {
     "projectPath": "D:/Github/PRU/Lession/Packages",
-    "unityVersion": "6000.0.32f1"
+    "unityVersion": "6000.0.33f1"
   },
   "inputs": [
     "D:\\Github\\PRU\\Lession\\Packages\\manifest.json",
@@ -66,7 +66,7 @@
     "com.unity.render-pipelines.universal@17.0.3": {
       "name": "com.unity.render-pipelines.universal",
       "resolvedPath": "D:\\Github\\PRU\\Lession\\Library\\PackageCache\\com.unity.render-pipelines.universal",
-      "fingerprint": "a168de23718db68d8d0d859e62b8a5cad5a48a0c",
+      "fingerprint": "56654c7c46cf082e2ca1364f310abd066be13b83",
       "editorCompatibility": "6000.0.0a1",
       "version": "17.0.3",
       "source": "builtin"
@@ -318,7 +318,7 @@
     "com.unity.render-pipelines.core@17.0.3": {
       "name": "com.unity.render-pipelines.core",
       "resolvedPath": "D:\\Github\\PRU\\Lession\\Library\\PackageCache\\com.unity.render-pipelines.core",
-      "fingerprint": "bb3e76ac9cad84a12b86d7d65b9fd37f13183def",
+      "fingerprint": "668d69e61fc4f03c821b6a3e669d05e3cf380460",
       "editorCompatibility": "6000.0.0a1",
       "version": "17.0.3",
       "source": "builtin"

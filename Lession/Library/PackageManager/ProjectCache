@@ -20,7 +20,7 @@ m_EmbeddedPackageManifests:
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Github/PRU/Lession/Packages
-m_EditorVersion: 6000.0.32f1 (b2e806cf271c)
+m_EditorVersion: 6000.0.33f1 (433b0a79340b)
 m_ResolvedPackages:
 - packageId: com.unity.cinemachine@3.1.3
   testable: 0
@@ -329,8 +329,10 @@ m_ResolvedPackages:
     - 2.5.1
     - 2.5.2
     - 2.6.0
+    - 2.7.1
     compatible:
     - 2.6.0
+    - 2.7.1
     recommended: 2.6.0
     deprecated: []
   dependencies: []
@@ -852,10 +854,12 @@ m_ResolvedPackages:
     - 1.11.2
     - 1.12.0
     - 1.13.0
+    - 1.13.1
     compatible:
     - 1.11.2
     - 1.12.0
     - 1.13.0
+    - 1.13.1
     recommended: 1.11.2
     deprecated: []
   dependencies:
@@ -1181,7 +1185,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: a168de23718db68d8d0d859e62b8a5cad5a48a0c
+  fingerprint: 56654c7c46cf082e2ca1364f310abd066be13b83
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.0.3
@@ -1449,6 +1453,7 @@ m_ResolvedPackages:
     - 1.7.4
     - 1.7.5
     - 1.7.6
+    - 1.7.7
     - 1.8.0
     - 1.8.1
     - 1.8.2
@@ -1673,16 +1678,20 @@ m_ResolvedPackages:
     - 1.7.6
     - 1.7.7
     - 1.7.8
+    - 1.8.0-pre.1
     - 1.8.0
     - 1.9.0
     - 1.9.1
     - 1.9.2
     - 1.9.4
     - 1.9.5
+    - 1.9.6
     compatible:
     - 1.9.5
-    recommended: 1.9.5
-    deprecated: []
+    - 1.9.6
+    recommended: 1.9.6
+    deprecated:
+    - 1.8.0-pre.1
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -4452,7 +4461,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: bb3e76ac9cad84a12b86d7d65b9fd37f13183def
+  fingerprint: 668d69e61fc4f03c821b6a3e669d05e3cf380460
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.0.3
@@ -4908,8 +4917,10 @@ m_ResolvedPackages:
     - 10.1.2
     - 10.1.3
     - 10.1.4
+    - 10.2.0
     compatible:
     - 10.1.4
+    - 10.2.0
     recommended: 10.1.4
     deprecated: []
   dependencies:
@@ -5053,8 +5064,10 @@ m_ResolvedPackages:
     - 5.0.1
     - 5.0.2
     - 5.0.3
+    - 5.1.0
     compatible:
     - 5.0.3
+    - 5.1.0
     recommended: 5.0.3
     deprecated: []
   dependencies: []
@@ -5204,6 +5217,7 @@ m_ResolvedPackages:
     - 9.0.2
     - 9.0.3
     - 10.0.0
+    - 10.1.0
     compatible:
     - 9.0.3
     recommended: 9.0.3
@@ -5460,8 +5474,10 @@ m_ResolvedPackages:
     - 10.0.5
     - 10.0.6
     - 10.0.7
+    - 10.1.0
     compatible:
     - 10.0.7
+    - 10.1.0
     recommended: 10.0.7
     deprecated: []
   dependencies:
@@ -5701,6 +5717,7 @@ m_ResolvedPackages:
     - 4.0.2
     - 4.1.0
     - 4.2.1
+    - 4.3.0
     compatible:
     - 4.1.0
     recommended: 4.1.0
@@ -5810,6 +5827,8 @@ m_ResolvedPackages:
     - 1.1.8
     - 1.2.0
     - 1.2.1
+    - 1.2.2
+    - 1.2.3
     compatible:
     - 1.1.7
     - 1.1.8
@@ -6496,10 +6515,14 @@ m_ResolvedPackages:
     - 2.5.0-pre.2
     - 2.5.1
     - 2.5.2
+    - 2.5.3
+    - 2.6.0-exp.2
     compatible:
     - 2.5.1
     - 2.5.2
-    recommended: 2.5.2
+    - 2.5.3
+    - 2.6.0-exp.2
+    recommended: 2.5.3
     deprecated: []
   dependencies:
   - name: com.unity.burst
@@ -6749,8 +6772,10 @@ m_ResolvedPackages:
     - 9.0.5
     - 9.0.6
     - 9.0.7
+    - 9.1.0
     compatible:
     - 9.0.7
+    - 9.1.0
     recommended: 9.0.7
     deprecated: []
   dependencies:
@@ -7118,4 +7143,4 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 3.0.3
     minimumUnityVersion: 2020.3.0a1
-m_BuiltInPackagesHash: 02ccae8a6fea3b773b91b78f7a8d92680a6ca369
+m_BuiltInPackagesHash: 75028b1d8028e2ecd08833ba9a3c68ea34610ba9

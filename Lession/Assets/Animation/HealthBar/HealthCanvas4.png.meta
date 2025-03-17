@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HealthCanvas4_0: 3277453447647148905
+      HealthCanvas4_1: -2903113410792670421
+      HealthCanvas4_2: -929089679506174129
+      HealthCanvas4_3: -876892863364108778
+      HealthCanvas4_4: 421589135935969197
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
